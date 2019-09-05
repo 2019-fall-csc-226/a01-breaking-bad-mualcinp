@@ -17,6 +17,36 @@
 ######################################################################
 # (Required) Task 1
 # TODO Ask user for their birth year
+my_input = input('Please enter your birth year: ')
+
+print('Your birth year is: ' + my_input + '!')
+
+if my_input == '2000':
+    print("You are a mighty dragon!")
+if my_input == '1999':
+    print("You are a fluffy bunny!")
+if my_input == '1998':
+    print("You are ferocious tiger!")
+if my_input == '1997':
+    print("You are a mighty ox!")
+if my_input == '1996':
+    print("You are an ugly rat!")
+if my_input == '1995':
+    print("You are a delicious pig!")
+if my_input == '1994':
+    print("You are an excited doggie!")
+if my_input == '1993':
+    print("You are a bright red rooster!")
+if my_input == '1992':
+    print("You are a silly monkey!")
+if my_input == '1991':
+    print("You are a billy goat!")
+if my_input == '1990':
+    print("You are a magnificent horse!")
+if my_input == '1989':
+    print("You are a slimey snake!")
+
+
 
 
 # TODO Check the year using if conditionals, and print the correct animal for that year.
